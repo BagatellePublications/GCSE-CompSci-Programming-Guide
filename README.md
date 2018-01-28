@@ -1,3 +1,3 @@
-# J27603Guide
+# GCSE Computer Science NEA Programming Guide 
 
-Source code for J27603Guide for GCSE
+Source code for GCSE programming guide
