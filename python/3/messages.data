@@ -1,0 +1,10 @@
+Messages file loaded successfully 
+Welcome to our game
+Obstacles file opened successfully
+Player A scored %s, Player A has won
+Player A new position: %s
+Player B scored %s, Player B has won
+Player B new position: %s
+%s: double %s: returns %s
+%s %s,%s returns %s
+%s: obstacle @ %s, value %s
