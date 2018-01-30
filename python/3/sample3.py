@@ -40,14 +40,14 @@ def line(x1, y1, x2, y2):
 
 #-------------------------------------
 def clearMessageLine():
-	jumpto(MSG_X-2, MSG_Y-2)
+	jumpto(MSG_X-2, MSG_Y-4)
 	turtle.setheading(90)
 	turtle.fillcolor("white")
 	turtle.begin_fill()
 	for _ in range(2):
-		turtle.forward(12)
+		turtle.forward(14)
 		turtle.right(90)
-		turtle.forward(280)
+		turtle.forward(300)
 		turtle.right(90)
 		turtle.end_fill()
 
@@ -131,7 +131,7 @@ def loadObstacles(m):
     return []
 
   else:
-    messages(m[2])
+    message(m[2])
     obstacles = []
     for line in csv.reader(f):
       obstacles.append(line)
